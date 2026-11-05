@@ -67,3 +67,11 @@ one; then correct it.
 - Doc comments on public API (Javadoc, docstrings, TSDoc, etc)
 follow the repo's conventions and state the contract, not the
 implementation.
+
+### Git Commits
+- Follow the Conventional Commits 1.0.0 standard
+(https://www.conventionalcommits.org/en/v1.0.0/).
+- For `fix` and `feat` commits, the body should indicate the
+problem, followed by the change in implementation to meet the
+solution. Appropriate testing and other ancillary conditions are
+presumed and should never be mentioned.
